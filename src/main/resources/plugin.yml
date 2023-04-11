@@ -1,0 +1,7 @@
+name: PluginTemplate
+version: ${project.version}
+main: com.seailz.template.TemplatePlugin
+api-version: 1.18
+authors: [ Seailz ]
+description: Plugin Tempalte (Change this!)
+website: www.seailzcom
