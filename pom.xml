@@ -5,18 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.seailz</groupId>
-    <artifactId>PluginTemplate</artifactId>
+    <artifactId>ChestLocking</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>PluginTemplate</name>
+    <name>ChestLocking</name>
 
-    <description>Plugin Template (Change this!)</description>
+    <description>Adds the ability to lock chests</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <url>www.seailzcom</url>
+    <url>www.seailz.com</url>
 
 
     <build>
@@ -82,7 +82,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <version>1.16.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

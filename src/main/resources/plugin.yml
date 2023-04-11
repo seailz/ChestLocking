@@ -1,7 +1,7 @@
-name: PluginTemplate
+name: ChestLocking
 version: ${project.version}
-main: com.seailz.template.TemplatePlugin
-api-version: 1.18
+main: com.seailz.chestlock.ChestLockingPlugin
 authors: [ Seailz ]
-description: Plugin Tempalte (Change this!)
-website: www.seailzcom
+description: Adds the ability to lock chests
+api-version: 1.13
+website: www.seailz.com

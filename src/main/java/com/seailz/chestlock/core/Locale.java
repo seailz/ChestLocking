@@ -1,4 +1,4 @@
-package com.seailz.template.core;
+package com.seailz.chestlock.core;
 
 import games.negative.framework.message.Message;
 import lombok.Getter;
@@ -18,7 +18,37 @@ import java.util.List;
     @Getter
     public enum Locale {
 
-        ERROR_INVALID_PLAYER("error.invalidplayer", Collections.singletonList("&c&lERROR&f That player is invalid!"));
+        ERROR_NO_BLOCK("error.noblock", Collections.singletonList(
+                "&c&lERROR &7You are not looking at a block!"
+        )),
+        ERROR_NOT_CHEST("error.notchest", Collections.singletonList(
+                "&c&lERROR &7The block you are looking at is not a chest or barrel!"
+        )),
+        ERROR_NOT_LOCKED("error.notlocked", Collections.singletonList(
+                "&c&lERROR &7The block you are looking at is not locked!"
+        )),
+        ERROR_NOT_YOUR_BLOCK("error.notyourlocking", Collections.singletonList(
+                "&c&lERROR &7The block you are looking at is locked by someone else!"
+        )),
+        SUCCESS_UNLOCKED("success.unlocked", Collections.singletonList(
+                "&a&lSUCCESS &7Unlocked!"
+        )),
+        ALREADY_LOCKED("error.alrlocked", Collections.singletonList(
+                "&c&lERROR &7The chest you're attempting to lock is already locked!"
+        )),
+
+        LOCK_SUCCESS("success.lock", Collections.singletonList(
+                "&a&lSUCCESS &7Your chest has been locked."
+        )),
+
+        BLOCK_IS_LOCKED("error.locked", Collections.singletonList(
+                "&c&lERROR &7That block is locked!"
+        )),
+        ERROR_INVALID_PLAYER("error.invalidplayer", Collections.singletonList(
+                "&c&lERROR&f That player is invalid!"
+        )),
+
+        ;
 
         private final String id;
         private final List<String> defaultMessage;
